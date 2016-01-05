@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
             public NameViewHolder(View itemView) {
                 super(itemView);
                 ButterKnife.bind(this,itemView);
+
+
             }
         }
     }
