@@ -1,0 +1,15 @@
+ext{
+    android = [
+            "compileSdkVersion": 23,
+            "buildToolsVersion": "23.0.2",
+            "applicationId"    : "com.bamboo.guava",
+            "minSdkVersion"    : 8,
+            "targetSdkVersion" : 22,
+            "versionCode"      : 1,
+            "versionName"      : "1.0"
+    ]
+
+    dependencies = [
+            "butterknife7" : 'com.jakewharton:butterknife:7.0.1'
+    ]
+}
