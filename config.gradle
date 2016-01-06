@@ -1,4 +1,4 @@
-ext{
+ext {
     android = [
             "compileSdkVersion": 23,
             "buildToolsVersion": "23.0.2",
@@ -10,6 +10,7 @@ ext{
     ]
 
     dependencies = [
-            "butterknife7" : 'com.jakewharton:butterknife:7.0.1'
+            "butterknife7": 'com.jakewharton:butterknife:7.0.1',
+            "guava"       : 'com.google.guava:guava:19.0'
     ]
 }
